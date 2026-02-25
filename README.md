@@ -1,4 +1,3 @@
 Scope : HackTheBox SIGNED machine
 
-
-Must be used within your audit scope in accordance with your RoE.
+Retrieve an Active Directory user name based on SID enumeration through mssql.
