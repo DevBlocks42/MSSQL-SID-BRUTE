@@ -2,13 +2,7 @@ import subprocess, sys, re, struct, datetime
 
 def printHeader():
    print('''
-#     _      _____ ____  _    _ 
-#    / \__/|/  __//  _ \/ \  /|
-#    | |\/|||  \  | / \|| |  ||
-#    | |  |||  /_ | \_/|| |/\||
-#    \_/  \|\____\\____/\_/  \|
-#
-# Me0w's Mssql RID Brute Enumeration Tool MMRBET v1.1
+# Mssql RID Brute Enumeration Tool v1.0
 #''')
 
 def getSID(host, user, pwd, domain, forceLocalAuth):
